@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ScopedBeanTest.java",
+      "testCases": [
+        {
+          "methodName": "scopedBeanTest",
+          "label": "Verify proper bean scope behavior",
+          "description": "Checks that requesting the 'labBean' multiple times returns different instances, confirming that the bean is configured with the correct non-singleton scope."
+        }
+      ]
+    }
+  ]
+}
