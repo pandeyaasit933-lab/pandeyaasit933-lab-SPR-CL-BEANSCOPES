@@ -30,7 +30,7 @@ public class Application {
      * scope can be set.
      */
     @Bean
-    @Scope("singleton")
+    @Scope("prototype")
     public ScopedBean sampleBean(){
         return new ScopedBean();
     }
@@ -39,7 +39,7 @@ public class Application {
      * TODO: correct the following code so that a new ScopedBean is instantiated every time the labBean is requested.
      */
     @Bean
-    
+
     public ScopedBean labBean(){
         return new ScopedBean();
     }
